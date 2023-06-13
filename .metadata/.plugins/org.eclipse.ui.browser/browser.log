@@ -1,0 +1,16 @@
+
+6월 05, 2023 10:04:15.35 NEW SESSION
+6월 05, 2023 10:04:15.35 [libprotobuf ERROR ..\..\third_party\protobuf\src\google\protobuf\message_lite.cc:133] Can't parse message of type "safe_browsing.ClientDownloadRequest" because it is missing required fields: (cannot determine missing fields for lite message)
+6월 05, 2023 12:35:10.22 [6100:13820:0605/123510.224:ERROR:interface_endpoint_client.cc(696)] Message 0 rejected by interface blink.mojom.WidgetHost
+6월 05, 2023 13:01:27.22 [6100:8720:0605/130127.227:ERROR:cert_verify_proc_builtin.cc(679)] CertVerifyProcBuiltin for api.lunamedia.io failed:
+6월 05, 2023 13:01:27.22 ----- Certificate i=0 (CN=*.lunamedia.io) -----
+6월 05, 2023 13:01:27.22 ERROR: Time is after notAfter
+6월 05, 2023 13:01:27.22 
+6월 05, 2023 13:01:27.23 
+
+6월 07, 2023 14:38:44.62 NEW SESSION
+6월 07, 2023 14:38:44.62 [1168:11152:0607/143844.614:ERROR:interface_endpoint_client.cc(697)] Message 0 rejected by interface blink.mojom.WidgetHost
+
+6월 12, 2023 12:12:57.44 NEW SESSION
+6월 12, 2023 12:12:57.44 [9396:14352:0612/121257.432:ERROR:interface_endpoint_client.cc(697)] Message 5 rejected by interface blink.mojom.WidgetHost
+6월 12, 2023 13:04:22.38 [3732:10188:0612/130422.385:ERROR:interface_endpoint_client.cc(697)] Message 5 rejected by interface blink.mojom.WidgetHost

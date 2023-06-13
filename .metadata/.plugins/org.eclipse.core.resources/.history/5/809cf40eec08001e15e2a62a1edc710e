@@ -1,0 +1,17 @@
+package kr.co.tjoeun.beans;
+
+import org.springframework.stereotype.Component;
+import org.springframework.web.context.annotation.ApplicationScope;
+
+//RootAppContext에서 설정 안 하고 여기서 직접 바로설정
+//byType
+@Component
+@ApplicationScope
+public class TestBean4 {
+
+	private String data5;
+	private String data6;
+	
+
+	
+}

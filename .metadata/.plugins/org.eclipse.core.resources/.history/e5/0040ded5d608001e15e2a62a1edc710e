@@ -1,0 +1,6 @@
+
+ Session Scope
+=> Bean을 정의할 때, session scope로 정의하면
+   browser가 server에 최초로 요청(request)를 보낼 때
+   Bean 객체가 주입됨
+=> 

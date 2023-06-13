@@ -1,0 +1,59 @@
+package kr.co.tjoeun.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+
+import kr.co.tjoeun.beans.UserInfoBean;
+
+@Controller
+public class TestController {
+
+	@GetMapping("/test1")
+	//@ModelAttribute 생략 
+	public String test1(UserInfoBean bean) {
+		
+		bean.setUserName("더조은");
+		bean.setUserId("spring");
+		bean.setUserPw("1234");
+		bean.setUserPostcode("1004");
+		bean.setUserAddress1("일산");
+		bean.setUserAddress2("정발산동");
+		
+		return "test1";
+	}
+
+	//이름 : <form:input  path="userName"/><br> 
+	@GetMapping("/test2")
+	public String test2(UserInfoBean bean) {
+		
+		bean.setUserName("더조은");
+		bean.setUserId("spring");
+		bean.setUserPw("1234");
+		bean.setUserPostcode("1004");
+		bean.setUserAddress1("일산");
+		bean.setUserAddress2("정발산동");
+		
+		return "test2";
+	}
+
+	// bean으로 바꾸기 @ModelAttribute("bean")
+	@GetMapping("/test3")
+	public String test3(@ModelAttribute("bean")UserInfoBean bean) {
+		
+		bean.setUserName("더조은");
+		bean.setUserId("spring");
+		bean.setUserPw("1234");
+		bean.setUserPostcode("1004");
+		bean.setUserAddress1("일산");
+		bean.setUserAddress2("정발산동");
+		
+		return "test3";
+	}
+
+
+
+
+
+
+}

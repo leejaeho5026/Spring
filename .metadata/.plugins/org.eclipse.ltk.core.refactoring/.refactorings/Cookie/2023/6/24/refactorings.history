@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;load_cookie.jsp&apos; to &apos;views&apos;&#x0D;&#x0A;- Original project: &apos;Cookie&apos;&#x0D;&#x0A;- Destination element: &apos;views&apos;&#x0D;&#x0A;- Original element: &apos;load_cookie.jsp&apos;" description="Copy file" element1="WebContent/WEB-INF/views/load_cookie.jsp" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1686558167218" target="/Cookie/WebContent/WEB-INF/views" units="0" version="1.0"/>
+</session>

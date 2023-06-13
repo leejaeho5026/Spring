@@ -1,0 +1,15 @@
+
+Bean Injection: 빈 주입
+
+ @Autowired 어노테이션을 사용해서
+ Bean을 자동으로 주입 받기
+ 
+ Spring core에 prototype, singleton이 있고
+ Spring MVC에서 request, session, application이 추가됨
+ 
+ 
+  Request Scope
+   => Bean을 정의할 때 request Scope로 정의하면
+   요청(request)이  발생할 때마다 Bean 객체가 생성되어서 자동으로 주입된다
+   주입된 Bean은 요청 발생시 주입만 되고 
+   request SCope

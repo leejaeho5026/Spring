@@ -1,0 +1,7 @@
+
+파라미터로 객체 주입 받기
+
+Map으로 주입 받음
+	Client가 전달하는 모든 parameter data를 한꺼번에
+	Map으로 전달받음
+	같

@@ -1,0 +1,13 @@
+package kr.co.tjoeun.controller;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class TestController {
+
+	@GetMapping("/test1")
+	public Stirng test1() {
+		
+		return 
+	}
+}

@@ -1,0 +1,9 @@
+package kr.co.tjoeun.beans;
+
+public class TestBean2 {
+
+	private String data3;
+	private String data4;
+	
+	
+}

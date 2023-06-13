@@ -1,0 +1,5 @@
+
+ Application Scope
+=> Bean을 정의할 때 application scope로 정의하면
+   Server가 시작할 대 자동으로 주입됨
+   주입만 이루어지고 자동으로 applicati

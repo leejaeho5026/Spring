@@ -1,0 +1,6 @@
+package kr.co.tjoeun.beans;
+
+public class BeanKeyValue {
+
+	private String key
+}

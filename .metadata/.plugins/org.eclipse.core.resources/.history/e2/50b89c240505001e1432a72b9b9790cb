@@ -1,0 +1,31 @@
+package kr.co.tjoeun.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import kr.co.tjoeun.beans.BeanData;
+
+@Controller
+public class TestController {
+
+	
+	// <form:form modelAttribute="beanData">꺼낼 때 BeanData로 앞에 소문자
+	@GetMapping("/test1")
+	public String test1(BeanData bean) {
+		
+		bean.setData1("spring framework");
+		
+		
+		return "test1";
+	}
+	
+	@GetMapping("/test2")
+	public String test2(BeanData bean) {
+		
+		bean.setData1("spring framework");
+		bean.setData2("web application");	
+		return "test2";
+	}
+
+
+}

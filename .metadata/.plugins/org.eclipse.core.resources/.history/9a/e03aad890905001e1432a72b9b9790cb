@@ -1,0 +1,44 @@
+
+form custom tag의
+select, checkbox, radio 태그
+
+<form:select> 태그
+=> select 태그를 생성함
+		path 속성: model의 값  <form:form modelAttribute 속성에 의해서 추출된
+	    (Model 객체에 저장된 객체(HttpServletRequest))을 추출해서 
+	    멤버변수(값)를 추출해서  (input 태그로 변환된) value속성에 주입(할당)한다. 
+	    id속성과 name속성의 역할을 한다.
+	   *path 속성은 3가지 역활*
+	   *id,name,value*	 
+	   
+	   
+	<h2>test1.jsp입니다.</h2>
+	<form:form  modelAttribute= "beanData" action="result">
+		<form:select path="data1">
+		
+		</form:select>
+	</form:form>
+	
+<form:option> 태그 : <form:select> 태그의 하위 태그 (안에 넣어야된다.)
+	<form:option> : select 태그의 option 태그 하나를 생성한다
+	<form:options> : select 태그의 option 태그 여러 개 생성 (끝에 S붙여서 복수형으로)
+	items:option : 태그들을 생성할 때 필요한 data가 담긴 list 나 배열	
+	
+	
+		<!--  
+		beanData 객체의 멤버변수 data1에 설정된 값과
+		같은 값은 value로 하는 항목이 선택된 상태로 태그가 생성된다.
+	 -->
+	<h2>test1.jsp입니다.</h2>
+	<form:form  modelAttribute= "beanData" action="result">
+		<form:select path="data1">
+			<form:option value="좋은학원">좋은학원</form:option>
+			<form:option value="더조은학원">더조은학원</form:option>
+			<form:option value="보통학원">보통학원</form:option>
+		
+		</form:select>
+	</form:form>
+	
+	
+	
+	

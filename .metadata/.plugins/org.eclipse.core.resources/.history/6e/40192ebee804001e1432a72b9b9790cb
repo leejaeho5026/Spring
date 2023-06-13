@@ -1,0 +1,3 @@
+
+Command Object: 커맨드 객체
+=> Client가 전달해 주는 parameter data를 주입받을 때 사용하는 객체

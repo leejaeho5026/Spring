@@ -1,0 +1,65 @@
+package kr.co.tjoeun.controller;
+
+import javax.annotation.Resource;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import kr.co.tjoeun.beans.TestBean1;
+import kr.co.tjoeun.beans.TestBean2;
+
+@Controller
+
+
+public class TestController {
+
+	//byType
+	@Autowired
+	TestBean1 applicationBean1;
+
+	//byName
+	@Resource(name="applicationBean2")
+	TestBean2 applicationBean2;
+	
+	
+	
+	@GetMapping("/test1")
+	public String test1() {
+		
+		applicationBean1.setData1("data1");
+		applicationBean1.setData2("data2");
+		applicationBean2.setData3("data3");
+		applicationBean2.setData4("data4");
+		
+		
+		
+		return "test1";
+	}
+
+	@GetMapping("/result1")
+	public String result1(Model model) {
+		
+		System.out.printf("applicationBean1.data1 : %s\n", applicationBean1.getData1());
+		System.out.printf("applicationBean1.data2 : %s\n", applicationBean1.getData2());
+		System.out.printf("applicationBean2.data3 : %s\n", applicationBean2.getData3());
+		System.out.printf("applicationBean2.data4 : %s\n", applicationBean2.getData3());
+		
+		// model.addAttribute()으로 data를 메모리에 올리면
+		// request scope에 저장되므로 .jsp에서 requestScope로 가져와야 함
+		// ByType 방식은 application Scope에 자동으로 저장되지 않아서 model로 request scope에 올려야한다.
+	 	model.addAttribute("applicationBean1", applicationBean1);
+	 	
+	 	// ByName방식은 application Scope에 자동으로 저장도
+	 	model.addAttribute("applicationBean2", applicationBean2);
+		
+		return "result1";
+	}
+
+
+
+
+
+
+}

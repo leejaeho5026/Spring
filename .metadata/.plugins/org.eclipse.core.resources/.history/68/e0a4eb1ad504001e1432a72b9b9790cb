@@ -1,0 +1,19 @@
+
+파라미터로 객체 주입 받기
+
+Map으로 주입 받음
+	Client가 전달하는 모든 parameter data를 한꺼번에
+	Map으로 전달받음
+	같은 이름으로 2개 이상의 parameter를 전달하면 하나만 받게 됨
+	=> 이 경우에는 List로 주입 받아야 한다.
+	=> @RequestParam List<String> numbers와 같이
+	=> parameter type을 List로 해야 함 : paramter이름에 주의 해야한다.
+	
+	
+@ModelAttribute
+=> 객체를 parameter로 주입 받을 수 있음
+=> 전달하는 객체의 이름(참조변수)과 paramter의 이름을 맞춰서 사용
+=> @ModelAttribute 어노테이션은 생략이 가능함
+=> 이러한 객체를 Command Object라고 한다.
+=> 이때, paramter로 전달된 data를 여러 Bean에서 받아서 처리할 수 있다.
+=> @M

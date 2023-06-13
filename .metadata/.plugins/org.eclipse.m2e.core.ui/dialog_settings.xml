@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="Cookie"/>
+			<item value="ApplicationScopeXml"/>
+			<item value="ApplicationScopeJava"/>
+			<item value="ApplicationScope"/>
+			<item value="SessionScopeBeanXml"/>
+			<item value="SessionScopeBean"/>
+			<item value="SessionScope"/>
+			<item value="RequestScopeBeanXml"/>
+			<item value="asdf"/>
+			<item value="RequestScopeBean"/>
+			<item value="Redirect"/>
+			<item value="test2"/>
+			<item value="FormCustomTag3"/>
+			<item value="FormCustomTag2"/>
+			<item value="FormCustomTag"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="Cookie"/>
+			<item value="ApplicationScopeXml"/>
+			<item value="ApplicationScopeJava"/>
+			<item value="ApplicationScope"/>
+			<item value="SessionScopeBeanXml"/>
+			<item value="SessionScopeBean"/>
+			<item value="SessionScope"/>
+			<item value="RequestScopeBeanXml"/>
+			<item value="asdf"/>
+			<item value="RequestScopeBean"/>
+			<item value="Redirect"/>
+			<item value="test2"/>
+			<item value="FormCustomTag3"/>
+			<item value="FormCustomTag2"/>
+			<item value="FormCustomTag"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

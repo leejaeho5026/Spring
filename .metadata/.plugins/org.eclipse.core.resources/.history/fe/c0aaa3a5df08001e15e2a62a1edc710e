@@ -1,0 +1,5 @@
+
+ Application Scope
+=> Server가 시작될 때부터 종료될 때까지의 범위
+   Application Scope 동안 사용할 수 있는 메모리 영역이 만들어지고
+   Servlet

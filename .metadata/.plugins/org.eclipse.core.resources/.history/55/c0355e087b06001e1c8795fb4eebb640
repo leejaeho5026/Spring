@@ -1,0 +1,4 @@
+RequestScope
+=> Client의 Browser로부터  새로운 요청이 들어와서 
+   응답결과가 다시 Client의 Browser로 전달 될 때까지
+   요청(request)정보가 담겨있는

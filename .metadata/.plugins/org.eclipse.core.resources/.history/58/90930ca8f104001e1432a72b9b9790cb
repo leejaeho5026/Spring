@@ -1,0 +1,17 @@
+package kr.co.tjoeun.beans;
+
+public class UserInfoBean {
+
+	private String userName;
+	private String userId;
+	private String userPw;
+	private String userPostcode;
+	private String userAddress1;
+	private String userAddress2;
+
+
+
+}
+
+
+

@@ -1,0 +1,7 @@
+package kr.co.tjoeun.beans;
+
+public class BeanData {
+
+	private String data1;
+	
+}

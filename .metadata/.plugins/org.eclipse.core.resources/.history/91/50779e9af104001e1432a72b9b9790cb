@@ -1,0 +1,26 @@
+package kr.co.tjoeun.beans;
+
+public class UserInfoBean {
+
+	private String userName;
+	private String userId;
+	private String userPw;
+	private String userPostcode;
+	private String userAddress1;
+	private String userAddress1;
+
+
+
+}
+
+
+
+<h2>test1.jsp</h2>
+<form action= "result" method = "POST">
+	이름 : 	 <input type= "text" name="userName"><br>
+	아이디 : <input type= "text" name="userId"><br>
+	비밀번호 : <input type= "text" name="userPw"><br>
+	우편번호 : <input type= "text" name="userPostcode"><br>
+	주소1 : <input type= "text" name="userAddress1"><br>
+	주소2 : <input type= "text" name="userAddress2"><br>
+	<button type="submit">전송</button>

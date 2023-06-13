@@ -1,0 +1,8 @@
+package kr.co.tjoeun.beans;
+
+public class DataBean1 {
+	private String number1;
+	private String number2;
+	
+	
+}

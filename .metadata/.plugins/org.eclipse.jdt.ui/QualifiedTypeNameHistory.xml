@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="kr.co.tjoeun.model.Test2Service"/>
+<fullyQualifiedTypeName name="org.springframework.web.WebApplicationInitializer"/>
+<fullyQualifiedTypeName name="org.springframework.web.servlet.config.annotation.WebMvcConfigurer"/>
+<fullyQualifiedTypeName name="javax.servlet.ServletRegistration"/>
+<fullyQualifiedTypeName name="javax.servlet.ServletRegistration.Dynamic"/>
+<fullyQualifiedTypeName name="javax.servlet.FilterRegistration"/>
+<fullyQualifiedTypeName name="javax.servlet.FilterRegistration.Dynamic"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="java.nio.file.DirectoryStream.Filter"/>
+<fullyQualifiedTypeName name="javax.servlet.Filter"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="kr.co.tjoeun.Beans.TestBean1"/>
+<fullyQualifiedTypeName name="org.springframework.ui.Model"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Lazy"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
+<fullyQualifiedTypeName name="kr.co.tjoeun.beans.TestBean1"/>
+<fullyQualifiedTypeName name="java.net.URLEncoder"/>
+<fullyQualifiedTypeName name="javax.servlet.http.Cookie"/>
+<fullyQualifiedTypeName name="java.net.URLDecoder"/>
+</qualifiedTypeNameHistroy>

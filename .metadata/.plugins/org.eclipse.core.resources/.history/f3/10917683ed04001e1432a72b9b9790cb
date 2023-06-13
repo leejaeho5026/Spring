@@ -1,0 +1,19 @@
+
+Command Object: 커맨드 객체
+=> Client가 전달해 주는 parameter data를 주입받을 때 사용하는 객체
+
+ex) @PostMapping("/test1")
+	public String test1(@ModelAttribute BeanData Bean){
+		return "test1";
+	}
+	
+	
+	
+	index.jsp에서
+		number1 : <input type = "text" name="number1"/><br>
+		number2 : <input type = "text" name="number2"/><br>
+		=> name명이랑 DataBean1 클래스 안에 객체명이랑 같이 해야한다.
+		private String number1;
+		private String number2;
+		
+		

@@ -1,0 +1,41 @@
+package kr.co.tjoeun.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import kr.co.tjoeun.beans.TestBeanByType;
+
+@Controller
+public class TestController {
+
+	// Bean을 주입받음  TestBeanByType testBeanByType = new testBeanByType(); 이런 뜻!
+	@Autowired
+	TestBeanByType testBeanByType;
+	
+	// Bean을 name(설정한 이름)으로 주입받음
+	
+	
+	@GetMapping("/test1")
+	public String test1() {
+		
+		
+		return "test1";
+	}
+
+	@GetMapping("/result1")
+	public String result1() {
+		
+		return "result1";
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
