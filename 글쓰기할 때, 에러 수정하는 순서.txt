@@ -1,0 +1,19 @@
+1) board/main.jsp
+글쓰기 에 &page=${page} 추가
+
+2) BoardController  @GetMapping("/write") 
+@RequestParam("page") int page, Model model
+model.addAttribute("page", page); 추가
+
+3) board/write.jsp
+<input type="hidden" name="page" value="${page }" /> 추가
+
+4) @PostMapping("/write_procedure")
+@RequestParam("page") int page, Model model
+model.addAttribute("page", page); 추가
+
+5) board/write_success.jsp
+&page=${page} 추가
+
+
+
